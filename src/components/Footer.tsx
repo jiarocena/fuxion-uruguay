@@ -9,19 +9,21 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-fx-green flex items-center justify-center font-heading font-extrabold text-white text-lg">
-                F
-              </div>
+            <Link to="/" className="flex items-center gap-3 mb-4 group">
+              <img
+                src="/images/maria-noel.png"
+                alt="María Noel Acosta"
+                className="w-10 h-10 rounded-full object-cover border-2 border-white/20 group-hover:border-fx-green/60 transition-colors shadow-sm"
+              />
               <div>
-                <span className="fuxion-logo-text text-lg text-white tracking-wider">
-                  FU<span className="text-fx-green">X</span>ION
+                <span className="font-heading font-bold text-sm text-white tracking-wide block leading-tight group-hover:text-fx-green transition-colors">
+                  María Noel Acosta
                 </span>
-                <span className="text-[10px] text-white/60 block -mt-1 font-body font-semibold tracking-widest uppercase">
-                  Uruguay
+                <span className="text-[10px] text-fx-green block font-body font-bold tracking-widest uppercase">
+                  Nutricionista
                 </span>
               </div>
-            </div>
+            </Link>
             <p className="text-white/70 text-sm leading-relaxed mb-4 font-body">
               Productos naturales de alta calidad basados en la biodiversidad 
               amazónica y andina. Mejorá tu bienestar de forma natural.

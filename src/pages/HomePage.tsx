@@ -243,9 +243,11 @@ export default function HomePage() {
 
             {/* Subtitle */}
             <p className="text-lg sm:text-xl text-white/80 font-body leading-relaxed mb-8 max-w-2xl mx-auto animate-fade-in-up opacity-0 stagger-3">
-              Descubrí los productos FuXion, elaborados con superalimentos 
-              de la biodiversidad amazónica y andina. Energía, nutrición 
-              y bienestar en cada sorbo.
+              No hay un camino único ni una forma de alimentarse que le sirva a todas.
+              <br /><br />
+              Hay un punto de encuentro entre lo que querés, lo que tu cuerpo necesita y lo que tu vida permite.
+              <br /><br />
+              Eso es lo que construimos juntas.
             </p>
 
             {/* CTA Buttons */}

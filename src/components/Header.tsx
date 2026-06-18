@@ -36,29 +36,21 @@ export default function Header() {
           : 'bg-white'
       }`}
     >
-      {/* Top bar - FuXion style */}
-      <div className="bg-fx-dark text-white text-xs py-1.5 hidden md:block">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-          <span className="font-body opacity-80">María Noel Acosta #3020487 — Distribuidora autorizada FuXion</span>
-          <a href="https://fuxion.com/uy/" target="_blank" rel="noopener noreferrer" className="hover:text-fx-green transition-colors font-body">
-            fuxion.com/uy
-          </a>
-        </div>
-      </div>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-xl bg-fx-green flex items-center justify-center font-heading font-extrabold text-white text-lg shadow-md shadow-fx-green/20 group-hover:shadow-fx-green/40 transition-shadow">
-              F
-            </div>
+          <Link to="/" className="flex items-center gap-3 group">
+            <img
+              src="/images/maria-noel.png"
+              alt="María Noel Acosta"
+              className="w-10 h-10 rounded-full object-cover border-2 border-fx-green/30 group-hover:border-fx-green/60 transition-colors shadow-sm"
+            />
             <div>
-              <span className="fuxion-logo-text text-lg text-fx-dark tracking-wider">
-                FU<span className="text-fx-green">X</span>ION
+              <span className="font-heading font-bold text-sm text-fx-dark tracking-wide block leading-tight group-hover:text-fx-green transition-colors">
+                María Noel Acosta
               </span>
-              <span className="text-[10px] text-fx-gray block -mt-1 font-body font-semibold tracking-widest uppercase">
-                Uruguay
+              <span className="text-[10px] text-fx-green block font-body font-bold tracking-widest uppercase">
+                Nutricionista
               </span>
             </div>
           </Link>
