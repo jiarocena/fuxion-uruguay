@@ -67,7 +67,7 @@ export default function Footer() {
               {[
                 { to: '/', label: 'Inicio' },
                 { to: '/productos', label: 'Productos' },
-                { to: '/recetas', label: 'Recetas & Guía' },
+                // { to: '/recetas', label: 'Recetas & Guía' },
                 { to: '/faq', label: 'Preguntas Frecuentes' },
                 { to: '/nosotros', label: 'Sobre Nosotros' },
                 { to: '/terminos', label: 'Términos y Condiciones' },

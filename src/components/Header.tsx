@@ -23,7 +23,7 @@ export default function Header() {
     { to: '/', label: 'Inicio' },
     { to: '/productos', label: 'Productos' },
     { to: '/componentes', label: 'Componentes' },
-    { to: '/recetas', label: 'Recetas' },
+    // { to: '/recetas', label: 'Recetas' },
     { to: '/faq', label: 'FAQ' },
     { to: '/nosotros', label: 'Nosotros' },
   ];

@@ -250,8 +250,8 @@ export default function HomePage() {
               Eso es lo que construimos juntas.
             </p>
 
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up opacity-0 stagger-4">
+            {/* CTA Buttons - Hidden for now */}
+            {/* <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up opacity-0 stagger-4">
               <Link to="/productos" className="btn-primary py-3.5 px-8 text-base bg-white !text-fx-dark hover:!shadow-white/30">
                 Ver Productos
                 <ArrowRight size={18} />
@@ -260,7 +260,7 @@ export default function HomePage() {
                 <BookOpen size={18} />
                 Recetas & Guía
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
 
