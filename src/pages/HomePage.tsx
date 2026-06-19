@@ -272,45 +272,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Features Strip */}
-      <section className="py-10 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
-            {[
-              {
-                icon: Sparkles,
-                title: '100% Natural',
-                desc: 'Ingredientes de la biodiversidad amazónica y andina',
-              },
-              {
-                icon: Shield,
-                title: 'Calidad Garantizada',
-                desc: 'Respaldados por ciencia y tecnología',
-              },
-              {
-                icon: Truck,
-                title: 'Envíos a todo Uruguay',
-                desc: 'Recibí en tu domicilio',
-              },
-            ].map((feature) => (
-              <div
-                key={feature.title}
-                className="flex items-center gap-4 py-2"
-              >
-                <div className="w-14 h-14 rounded-2xl bg-fx-green/10 flex items-center justify-center flex-shrink-0">
-                  <feature.icon size={24} className="text-fx-green" />
-                </div>
-                <div>
-                  <h3 className="font-heading font-bold text-fx-dark text-sm">
-                    {feature.title}
-                  </h3>
-                  <p className="text-fx-gray text-xs font-body">{feature.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ===== TRATAMIENTOS PERSONALIZADOS ===== */}
       <section className="py-16 md:py-24 bg-white relative overflow-hidden">
@@ -531,6 +492,46 @@ export default function HomePage() {
           </div>
         </div>
       )}
+
+      {/* Features Strip */}
+      <section className="py-10 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+            {[
+              {
+                icon: Sparkles,
+                title: '100% Natural',
+                desc: 'Ingredientes de la biodiversidad amazónica y andina',
+              },
+              {
+                icon: Shield,
+                title: 'Calidad Garantizada',
+                desc: 'Respaldados por ciencia y tecnología',
+              },
+              {
+                icon: Truck,
+                title: 'Envíos a todo Uruguay',
+                desc: 'Recibí en tu domicilio',
+              },
+            ].map((feature) => (
+              <div
+                key={feature.title}
+                className="flex items-center gap-4 py-2"
+              >
+                <div className="w-14 h-14 rounded-2xl bg-fx-green/10 flex items-center justify-center flex-shrink-0">
+                  <feature.icon size={24} className="text-fx-green" />
+                </div>
+                <div>
+                  <h3 className="font-heading font-bold text-fx-dark text-sm">
+                    {feature.title}
+                  </h3>
+                  <p className="text-fx-gray text-xs font-body">{feature.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Products Section */}
       <section className="py-16 md:py-24 bg-fx-gray-bg" id="productos">
