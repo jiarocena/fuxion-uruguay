@@ -6,13 +6,37 @@ export default function AboutPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <span className="text-fx-green font-heading font-semibold text-sm uppercase tracking-wider">
-            Nuestra Historia
-          </span>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-fx-dark mt-2 mb-4">
-            Sobre <span className="gradient-text">FuXion</span>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-fx-dark mt-2 mb-2">
+            María Noel <span className="gradient-text">Acosta</span>
           </h1>
-          <p className="text-fx-gray font-body max-w-2xl mx-auto">
+          <p className="text-fx-green font-heading font-semibold text-sm uppercase tracking-wider">
+            Licenciada en Nutrición
+          </p>
+        </div>
+
+        {/* Profile Section */}
+        <div className="flex flex-col md:flex-row items-center gap-8 mb-16 py-4">
+          <img
+            src="/images/maria-noel.png"
+            alt="María Noel Acosta"
+            className="w-44 h-44 rounded-full object-cover border-4 border-fx-green/20 shadow-xl flex-shrink-0"
+          />
+          <div>
+            <p className="text-fx-charcoal font-body leading-relaxed text-sm text-justify">
+              Soy Licenciada en Nutrición con más de 20 años de trayectoria acompañando procesos de salud y bienestar, tanto en consultorio particular como en espacios grupales. Mi trabajo está especialmente orientado a mujeres mayores de 40 años, una etapa de la vida atravesada por cambios físicos, emocionales y de rol que merecen ser comprendidos, no estandarizados. Parto del respeto profundo por la realidad de cada persona: sus tiempos, su historia, sus posibilidades concretas. No busco imponer modelos ni generar presión, sino construir junto a cada quien un camino realista, donde el deseo, las expectativas y lo posible puedan encontrar un equilibrio genuino. Contención, escucha y empatía son la base de un acompañamiento que entiende que cada proceso es único, y que el bienestar se construye paso a paso, sin apuros ni juicios.
+            </p>
+          </div>
+        </div>
+
+        {/* Sobre FuXion Heading */}
+        <div className="text-center mb-10 pt-8 border-t border-fx-gray-lighter">
+          <span className="text-fx-green font-heading font-semibold text-sm uppercase tracking-wider">
+            Distribuidora Autorizada
+          </span>
+          <h2 className="text-3xl font-heading font-bold text-fx-dark mt-2 mb-4">
+            Sobre <span className="gradient-text">FuXion</span>
+          </h2>
+          <p className="text-fx-gray font-body max-w-2xl mx-auto text-sm">
             FuXion combina la sabiduría ancestral con la ciencia moderna 
             para crear productos naturales que transforman vidas.
           </p>
