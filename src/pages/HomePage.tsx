@@ -340,7 +340,7 @@ export default function HomePage() {
               />
               <div className="text-left">
                 <p className="font-heading font-bold text-sm text-fx-dark">María Noel Acosta</p>
-                <p className="text-[11px] font-body text-fx-gray">Nutricionista · Distribuidora FuXion #3020487</p>
+                <p className="text-[11px] font-body text-fx-gray">Licenciada en nutrición · Distribuidora FuXion #3020487</p>
               </div>
             </div>
           </div>

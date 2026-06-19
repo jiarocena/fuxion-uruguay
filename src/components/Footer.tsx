@@ -20,7 +20,7 @@ export default function Footer() {
                   María Noel Acosta
                 </span>
                 <span className="text-[10px] text-fx-green block font-body font-bold tracking-widest uppercase">
-                  Nutricionista
+                  Licenciada en nutrición
                 </span>
               </div>
             </Link>
