@@ -493,10 +493,25 @@ export default function HomePage() {
         </div>
       )}
 
-      {/* Features Strip */}
-      <section className="py-10 bg-white">
+
+      {/* Products Section */}
+      <section className="py-16 md:py-24 bg-fx-gray-bg" id="productos">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+          <div className="text-center mb-12">
+            <span className="text-fx-green font-heading font-semibold text-sm uppercase tracking-wider">
+              Nuestro Catálogo
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-heading font-bold text-fx-dark mt-2 mb-4">
+              Productos <span className="gradient-text">FuXion</span>
+            </h2>
+            <p className="text-fx-gray font-body max-w-xl mx-auto">
+              Cada producto está diseñado para mejorar tu calidad de vida. 
+              Combiná varios para un programa nutricional completo.
+            </p>
+          </div>
+
+          {/* Features Strip */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 py-8 border-t border-b border-gray-300/60 my-10">
             {[
               {
                 icon: Sparkles,
@@ -529,24 +544,6 @@ export default function HomePage() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Products Section */}
-      <section className="py-16 md:py-24 bg-fx-gray-bg" id="productos">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <span className="text-fx-green font-heading font-semibold text-sm uppercase tracking-wider">
-              Nuestro Catálogo
-            </span>
-            <h2 className="text-3xl sm:text-4xl font-heading font-bold text-fx-dark mt-2 mb-4">
-              Productos <span className="gradient-text">FuXion</span>
-            </h2>
-            <p className="text-fx-gray font-body max-w-xl mx-auto">
-              Cada producto está diseñado para mejorar tu calidad de vida. 
-              Combiná varios para un programa nutricional completo.
-            </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
