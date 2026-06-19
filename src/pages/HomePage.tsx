@@ -557,8 +557,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Guide CTA Section */}
-      <section className="py-16 md:py-20 bg-white">
+      {/* Guide CTA Section - Hidden for now */}
+      {/* <section className="py-16 md:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative rounded-3xl overflow-hidden gradient-brand-dark">
             <div className="absolute top-0 right-0 w-96 h-96 bg-fx-green/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl" />
@@ -585,7 +585,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <ProductDetailModal
         product={selectedProduct}
         onClose={() => setSelectedProduct(null)}
