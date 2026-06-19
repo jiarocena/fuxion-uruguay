@@ -122,9 +122,6 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-8 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-white/40 text-xs font-body">
-            © {new Date().getFullYear()} FuXion Uruguay. Todos los derechos reservados.
-          </p>
           <p className="text-white/40 text-xs flex items-center gap-1 font-body">
             Hecho con <Heart size={12} className="text-red-400" /> en Uruguay
           </p>
