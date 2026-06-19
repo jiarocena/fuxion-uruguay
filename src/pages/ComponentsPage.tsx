@@ -370,7 +370,6 @@ export default function ComponentsPage() {
                   { name: 'Cafeína', stars: 5, product: 'Vita Xtra T+, Thermo T3', use: 'Energía y alerta' },
                   { name: 'Cromo', stars: 3, product: 'NoCarb-T', use: 'Sensibilidad insulina' },
                   { name: 'Colostro', stars: 3, product: 'BioPro+ Fit', use: 'Inmunidad y recuperación' },
-                  { name: 'L-Carnitina', stars: 2, product: 'Thermo T3', use: 'Evidencia mixta' },
                 ].map((row, i) => (
                   <tr key={i} className="border-t border-gray-100 hover:bg-gray-50 transition-colors">
                     <td className="px-4 py-3 font-body font-semibold text-gray-800">{row.name}</td>
