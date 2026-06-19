@@ -100,24 +100,7 @@ export default function Footer() {
                   +598 99 003 391
                 </a>
               </li>
-              <li>
-                <a
-                  href="https://fuxion.com/uy/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-white/60 text-sm hover:text-fx-green transition-colors font-body"
-                >
-                  <ExternalLink size={16} />
-                  fuxion.com/uy
-                </a>
-              </li>
             </ul>
-            <div className="mt-6 p-4 rounded-xl bg-white/5 border border-white/10">
-              <p className="text-xs text-white/60 leading-relaxed font-body">
-                🇺🇾 Distribuidor autorizado FuXion en Uruguay. 
-                Envíos a todo el país.
-              </p>
-            </div>
           </div>
         </div>
 
