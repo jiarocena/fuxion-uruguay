@@ -22,8 +22,11 @@ export default function AboutPage() {
             className="w-44 h-44 rounded-full object-cover border-4 border-fx-green/20 shadow-xl flex-shrink-0"
           />
           <div>
-            <p className="text-fx-charcoal font-body leading-relaxed text-sm text-justify">
-              Soy Licenciada en Nutrición con más de 20 años de trayectoria acompañando procesos de salud y bienestar, tanto en consultorio particular como en espacios grupales. Mi trabajo está especialmente orientado a mujeres mayores de 40 años, una etapa de la vida atravesada por cambios físicos, emocionales y de rol que merecen ser comprendidos, no estandarizados. Parto del respeto profundo por la realidad de cada persona: sus tiempos, su historia, sus posibilidades concretas. No busco imponer modelos ni generar presión, sino construir junto a cada quien un camino realista, donde el deseo, las expectativas y lo posible puedan encontrar un equilibrio genuino. Contención, escucha y empatía son la base de un acompañamiento que entiende que cada proceso es único, y que el bienestar se construye paso a paso, sin apuros ni juicios.
+            <p className="text-fx-gray font-body leading-relaxed mb-4">
+              Soy Licenciada en Nutrición con más de 20 años de trayectoria acompañando procesos de salud y bienestar, tanto en consultorio particular como en espacios grupales. Mi trabajo está especialmente orientado a mujeres mayores de 40 años, una etapa de la vida atravesada por cambios físicos, emocionales y de rol que merecen ser comprendidos, no estandarizados.
+            </p>
+            <p className="text-fx-gray font-body leading-relaxed">
+              Parto del respeto profundo por la realidad de cada persona: sus tiempos, su historia, sus posibilidades concretas. No busco imponer modelos ni generar presión, sino construir junto a cada quien un camino realista, donde el deseo, las expectativas y lo posible puedan encontrar un equilibrio genuino. Contención, escucha y empatía son la base de un acompañamiento que entiende que cada proceso es único, y que el bienestar se construye paso a paso, sin apuros ni juicios.
             </p>
           </div>
         </div>
